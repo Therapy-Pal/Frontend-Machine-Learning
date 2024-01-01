@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #00afd6;
+}
+
+:root {
+    --primary-text-color: #19AFC3;
+    --secondary-text-color: #0d5c67;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+.spacer {
+    height: 400px;
+}
+
+
+
+/* Testimonial Section */
+
+.testimonial-section {
+    width: 75%;
+}
+
+
+.testimonial-container {
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding-block: 100px;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    color: #555;
+}
+
+.test-heading {
+    color: white;
+    font-size: 20px;
+}
+
+.test-main-content {
+    flex-direction: column;
+    row-gap: 20px;
+    width: 50%;
+}
+
+.test-img {
+    width: 25%;
+    /* padding: 20px; */
+
+    margin-right: 30px;
+}
+
+.test-img img {
+    /* width: 50vh; */
+    border: 10px solid #00afd6 ;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.test-nameNcountry h1 {
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.carousel-control-prev button {
+    background-color: #0d5c67;
+}
